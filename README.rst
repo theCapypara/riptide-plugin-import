@@ -10,7 +10,7 @@
     *Main packages:*        lib_                 proxy_               cli_
     *Container-Backends:*   engine_docker_
     *Database Drivers:*     db_mysql_            db_mongo_
-    *Plugins:*              php_xdebug_          import_
+    *Plugins:*              php_xdebug_          **import**
     *Kubernetes:*           k8s_client_          k8s_controller_
     *Related Projects:*     configcrunch_
     *More:*                 docs_                repo_                docker_images_
@@ -33,8 +33,8 @@
 
 |build| |docs| |pypi-version| |pypi-downloads| |pypi-license| |pypi-pyversions| |slack|
 
-.. |build| image:: https://img.shields.io/github/workflow/status/theCapypara/riptide-plugin-php-xdebug/Build,%20test%20and%20publish
-    :target: https://github.com/theCapypara/riptide-plugin-php-xdebug/actions
+.. |build| image:: https://img.shields.io/github/workflow/status/theCapypara/riptide-plugin-import/Build,%20test%20and%20publish
+    :target: https://github.com/theCapypara/riptide-plugin-import/actions
     :alt: Build Status
 
 .. |docs| image:: https://readthedocs.org/projects/riptide-docs/badge/?version=latest
@@ -45,18 +45,18 @@
     :target: https://slack.riptide.theCapypara.de
     :alt: Join our Slack workspace
 
-.. |pypi-version| image:: https://img.shields.io/pypi/v/riptide-plugin-php-xdebug
-    :target: https://pypi.org/project/riptide-plugin-php-xdebug/
+.. |pypi-version| image:: https://img.shields.io/pypi/v/riptide-plugin-import
+    :target: https://pypi.org/project/riptide-plugin-import/
     :alt: Version
 
-.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/riptide-plugin-php-xdebug
-    :target: https://pypi.org/project/riptide-plugin-php-xdebug/
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/riptide-plugin-import
+    :target: https://pypi.org/project/riptide-plugin-import/
     :alt: Downloads
 
-.. |pypi-license| image:: https://img.shields.io/pypi/l/riptide-plugin-php-xdebug
+.. |pypi-license| image:: https://img.shields.io/pypi/l/riptide-plugin-import
     :alt: License (MIT)
 
-.. |pypi-pyversions| image:: https://img.shields.io/pypi/pyversions/riptide-plugin-php-xdebug
+.. |pypi-pyversions| image:: https://img.shields.io/pypi/pyversions/riptide-plugin-import
     :alt: Supported Python versions
 
 Riptide is a set of tools to manage development environments for web applications.
