@@ -1,0 +1,16 @@
+{
+  "name": "riptide-plugin-import-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/vite build",
+    "preview": "node_modules/.bin/vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "@ui5/webcomponents": "^1.1.0",
+    "@ui5/webcomponents-fiori": "^1.1.0"
+  }
+}

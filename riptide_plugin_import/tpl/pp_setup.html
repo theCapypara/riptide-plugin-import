@@ -1,0 +1,16 @@
+{% include 'head.html' %}
+<style>
+#ct {
+    padding-bottom: 14rem;
+    width: 80em;
+    max-width: 82%;
+    min-height: calc(100% - 20rem);
+}
+</style>
+<h1>Project Setup</h1>
+<div id="app"></div>
+<script type="text/javascript">window.RIPTIDE_SETUP_WS = "{{ url }}";</script>
+<script type="module" src="wizard-dist/wizard.js"></script>
+<hr>
+{% include 'back_to_front.html' %}
+{% include 'foot.html' %}

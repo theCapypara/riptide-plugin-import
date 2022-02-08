@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riptide Import Vite Development</title>
+  </head>
+  <body style="background-color: black;">
+    <p style="color: white;"><label>WS Backend URL: <input id="wsbackend-url" style="width: 80%;" value="http://project.riptide.local/__riptide_setup/"></label></p>
+    <script>
+      const input = document.getElementById("wsbackend-url");
+      if (localStorage.getItem("url") != null) {
+        input.value = localStorage.getItem("url");
+      }
+      window.RIPTIDE_SETUP_WS = input.value;
+      input.onchange = function() {
+        localStorage.setItem("url", input.value);
+        window.RIPTIDE_SETUP_WS = input.value;
+      }
+    </script>
+    <hr>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

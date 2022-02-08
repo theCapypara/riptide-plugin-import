@@ -1,0 +1,10 @@
+giftless-client @ git+https://github.com/theCapypara/giftless-client.git
+git-credentials >= 1.0.0
+configcrunch >= 1.0.0
+GitPython
+Click
+tqdm
+riptide-lib >= 0.7, < 0.8
+riptide-cli >= 0.7, < 0.8
+riptide-proxy >= 0.7.1, < 0.8
+requests == 2.26.0
